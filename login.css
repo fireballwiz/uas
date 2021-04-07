@@ -1,0 +1,79 @@
+body{
+ background-image: url('images/background1.png');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+@font-face{
+	font-family: AlteDIN; src: url('din1451alt.ttf');
+}
+
+.login{
+ 	width: 400px;
+ 	height: 315px;
+ 	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+ 	font-size: 16px;
+ 	border-style: solid;
+	border-color: #262626;
+	font-family: AlteDIN;
+	color: #e3e3e3;
+
+}
+.login-header, .login p{
+ 	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.login-header{
+ 	background-image: linear-gradient(#4fe391,#3ddc84);
+ 	padding: 20px;
+ 	font-size: 1.4em;
+ 	font-weight: normal;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ 	color: #fff;
+}
+
+.login-container{
+ background-image: linear-gradient(#242728,#383c3d);
+ padding: 12px; 
+}
+
+.login p{
+ padding: 12px;
+
+}
+
+.login input{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+ background: #fff;
+ border-color: #bbb;
+ color: #555;
+}
+
+.login input[type="submit"] {
+ background: #28d;
+ border-color: black;
+ color: #e3e3e3;
+ cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+ background-color: #062635;
+}
+	
